@@ -1,0 +1,17 @@
+body {
+  background-color: green;
+}
+
+.container {
+    margin: 150px;
+}
+
+.modal {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  vertical-align: middle;
+}

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  overflow: scroll;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0px
+}
+
+.row{
+  padding: 0 15px;
+}
+
+header {
+  background-color: rgb(59, 89, 152);
+  overflow: hidden;
+  position: relative;
+  }
+
+.login {
+  font-size: 12px;
+  color: white;
+}
+
+.login label {
+  margin-bottom: 2px;
+  padding-top: 10px;
+}
+
+.login input {
+  width: 100%;
+}
+
+button#enviar {
+  background-color: rgb(66, 103, 178);
+  font-weight: bold;
+  color: white;
+  border-color: #29487d;
+  cursor: pointer;
+  border-style: solid;
+  border-width: thin;
+  padding: 2px 4px;
+}
+
+.login a {
+  color: #9cb4d8;
+  font-weight: normal
+}
+
+.texto {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding-right: 80px;
+}
+
+.rede img{
+  width: 100%;
+}
+section {
+  background-image: linear-gradient(white,rgb(233, 235, 243));
+  overflow: hidden;
+}
+
+.direita h2 {
+  font-size: 36px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.Cadastro input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.nascimento label {
+  font-weight: bold;
+  color: grey;
+}
+
+select {
+  font-size: 12px;
+  float: left;
+  margin-left: 5px;
+  padding: 2px 1px;
+}
+
+.genero #titulo {
+  font-weight: bold;
+  color: grey;
+}
+
+.row #generos {
+  display: flex;
+}
+
+#generos label {
+  float:left;
+}
+
+#generos input {
+  width: 20%;
+}
+
+.termos {
+  font-size: 11px;
+}
+
+#cadastrar {
+  width: 100%;
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.idiomas li{
+  display: inline-block;
+  padding: 3px 3px;
+  font-size: 12px;
+
+}
+
+.outros li{
+  display: inline-block;
+  padding: 1px 8px 1px 0px;
+  font-size: 13px;
+}
+
+#rodape {
+  font-size: 10px;
+  margin-top: 10px;
+}

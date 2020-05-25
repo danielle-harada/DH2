@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(59, 89, 152);
+  overflow: hidden;
+  position: relative;
+  font-family: sans-serif;
+  height: 80px;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 120px;
+  position: absolute;
+  bottom: 0;
+}
+
+.login {
+  float: right;
+  display: inline;
+  font-size: 12px;
+  width: 50%;
+}
+
+.email {
+  float: left;
+  width: 33.3%;
+  margin: 15px 0px;
+  color: white;
+  line-height: 20px;
+}
+
+#email {
+  width: 135px;
+}
+
+#senha {
+  width: 135px;
+}
+.senha {
+  float: left;
+  margin: 15px 0px;
+  color: white;
+  line-height: 20px;
+}
+
+button#enviar {
+  background-color: rgb(66, 103, 178);
+  color: white;
+  float: left;
+  border: 1px solid black;
+  margin: 35px 20px;
+}
+
+section {
+  font-family: sans-serif;
+  background-color: rgb(233, 235, 243);
+  overflow: hidden;
+}
+
+.esquerda {
+  width: 50%;
+  float: left;
+  padding: 0 40px 0 120px;
+}
+
+.texto {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 20px 40px 0 0;
+}
+
+.rede img {
+  width: 100%;
+}
+
+.direita {
+  float: right;
+  width: 50%;
+}
+
+.direita h2 {
+  font-size: 25;
+}
+
+.direita p {
+  font-size: 16px;
+}
+
+input#nome {
+  float: left;
+  font-size: 14px;
+  margin: 10px 15px 5px 0;
+  border-radius: 7px;
+  height: 30px;
+  width: 170px;
+}
+
+input#sobrenome {
+  float: left;
+  font-size: 14px;
+  margin: 10px 15px 5px 0;
+  display: inline-block;
+  border-radius: 7px;
+  height: 30px;
+  width: 170px;
+  }
+
+input#contato {
+  width: 380px;
+  margin-top: 20px;
+  border-radius: 7px;
+  height: 30px;
+  width: 355px;
+}
+
+input#novasenha {
+  width: 380px;
+  margin-top: 20px;
+  border-radius: 7px;
+  height: 30px;
+  width: 355px;
+}
+
+.nascimento {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.nascimento label {
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  height: 30px;
+}
+
+.genero {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+#titulo {
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}
+
+#generos {
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+.termos {
+  width: 270px;
+}
+
+.termos p {
+  font-size: 9px;
+  color: grey;
+}
+
+button#cadastrar {
+  width: 160px;
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+#criar {
+  padding: 20px 0;
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+}
+
+footer {
+  font-family: sans-serif;
+  padding: 0 50px;
+}
+
+.idiomas li {
+  display: inline-block;
+  font-size: 11px;
+  padding: 5px 2px 2px 0;
+}
+
+.outros li {
+  display: inline-block;
+  font-size: 11px;
+  padding: 5px 15px 5px 0;
+}
+
+#rodape {
+  font-size: 8px;
+  color: grey;
+}

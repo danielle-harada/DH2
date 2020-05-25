@@ -1,0 +1,50 @@
+h1 {
+  margin-top: 70px;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+}
+
+@media (max-width: 900px){
+  .materia {width: 50%;}
+  img{margin: 0 25%;}
+  h3{text-align: center;}
+  }
+
+  @media (max-width: 500px){
+    .materia{width: 100%;}
+    img{margin: 0 auto;}
+    h3{text-align: center;}
+  }
+
+  @media (max-width: 900px){
+    .logo.header{
+      float:none;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .lista-em-linha.lista-cabecalho{visibility: hidden;}
+  }
+
+  @media (max-width: 900px){
+    footer{width: 100%;}
+    .logo.footer{
+      float:none;
+      margin: 0 auto;}
+  }
+
+  @media (max-width: 500px) {
+    .lista-em-linha.lista-footer li{display: inline;}
+  }

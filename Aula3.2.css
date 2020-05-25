@@ -1,0 +1,30 @@
+body {
+  font-family: cursive;
+  background-color: green;
+}
+
+input {
+  font-family: cursive;
+}
+
+button {
+  background-color: yellow;
+  color: red;
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+div {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: justify;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+textarea {
+  font-family: cursive;
+}
