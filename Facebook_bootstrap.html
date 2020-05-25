@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/Facebook_bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Facebook - entre ou cadastre-se</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-7 px-0">
+            <div class="logo">
+              <img src="../Imagem/facebook-logo.png" alt="Logo Facebook" width="155" height="65">
+            </div>
+          </div>
+      <div class="col-5 px-0">
+        <div class="login">
+          <form class="Login" action="Facebook.html" method="post">
+            <div class="row">
+              <div class="col-5">
+                <label for="email">Email ou telefone</label>
+              </div>
+              <div class="col-5">
+                <label for="senha">Senha</label>
+              </div>
+              <div class="col-2"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-5">
+              <input type="text" name="email" id="email">
+            </div>
+            <div class="col-5">
+              <input type="password" name="senha" id="senha">
+            </div>
+            <div class="col-2">
+              <button id="enviar" type="submit">Entrar</button>
+            </div>
+          </form>
+        </div>
+
+          <div class="row">
+            <div class="col-5"></div>
+            <div class="col-5">
+              <div class="my-1">
+                <a href="#">Esqueceu a conta?</a>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+      </div>
+      </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="esquerda col-6">
+            <div class="texto">
+              <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            </div>
+
+            <div class="rede">
+              <img src="../Imagem/rede.png" alt="rede">
+            </div>
+          </div>
+
+          <div class="direita col-6">
+            <h2>Abra uma conta</h2>
+            <p>É rápido e fácil.</p>
+
+        <form class="Cadastro" action="index.html" method="post">
+          <div class="row">
+            <div class="col-6 pl-0">
+              <div class="Nome">
+                <input id="nome" type="text" name="nome" placeholder="Nome">
+              </div>
+            </div>
+
+            <div class="col-6 px-0">
+              <div class="Sobrenome">
+                <input id="sobrenome" type="text" name="sobrenome" placeholder="Sobrenome">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 px-0 pt-2">
+              <div class="contato">
+                <input id="contato" type="text" name="contato" placeholder="Celular ou e-mail">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 px-0 pt-2">
+              <div class="novasenha">
+                <input id="novasenha" type="text" name="novasenha" placeholder="Nova Senha">
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-6 px-0">
+              <div class="nascimento">
+                <label for="nascimento">Data de nascimento</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 px-0">
+                <select class="dia" name="nascimento">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <select class="mes" name="nascimento">
+                  <option value="Janeiro">Janeiro</option>
+                  <option value="Fevereiro">Fevereiro</option>
+                  <option value="Março">Março</option>
+                </select>
+                <select class="ano" name="nascimento">
+                  <option value="1989">1989</option>
+                  <option value="1990">1990</option>
+                  <option value="1991">1991</option>
+                </select>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="genero">
+                <label for="genero" id="titulo">Gênero</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-4 px-0">
+                  <label for="Feminino" id="generos">
+                    <input type="radio" name="genero" id="Feminino" value="Feminino">Feminino
+                  </label>
+                </div>
+                <div class="col-4 px-0">
+                  <label for="Masculino" id="generos">
+                    <input type="radio" name="genero" id="Masculino" value="Masculino">Masculino
+                  </label>
+                </div>
+                <div class="col-4 px-0">
+                  <label for="Personalizado" id=generos>
+                    <input type="radio" name="genero" id="Personalizado" value="Personalizado">Personalizado
+                  </label>
+                </div>
+             </div>
+             <div class="row">
+               <div class="col-9 px-0">
+                 <div class="termos">
+                   <p>Ao clicar em Cadastre-se, você concorda com nossos
+                     <a href="#">Termos, Política de Dados e Política de Cookies</a>.
+                     Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                 </div>
+               </div>
+            </div>
+            <div class="row">
+              <div class="col-6 px-0">
+                <button id="cadastrar" type="button" name="button">Cadastre-se</button>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <p id="criar"><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+            </div>
+            </form>
+            <br>
+            <br>
+        </div>
+       </div>
+     </div>
+  </section>
+
+    <footer>
+      <div class="container">
+        <div class="idiomas">
+          <li>Português (Brasil)</li>
+          <li>English (US)</li>
+          <li>Español</li>
+          <li>Français (France)</li>
+          <li>Italiano</li>
+          <li>العربية</li>
+          <li>Deutsch</li>
+          <li>हिन्दी</li>
+          <li>中文(简体)</li>
+          <li>日本語</li>
+        </div>
+
+        <hr>
+
+        <div class="outros">
+        <li>Cadastre-se</li><li>Entrar</li><li>Messenger</li><li>Facebook Lite</li><li>Watch</li><li>Pessoas</li><li>Páginas</li>
+        <li>Categorias de Página</li><li>Locais</li><li>Jogos</li><li>Locais</li><li>Marketplace</li><li>Grupos</li><li>Portal</li><li>Instagram</li><li>Local</li><li>Campanhas de arrecadação de fundos</li>
+        <li>Serviços</li><li>Sobre</li><li>Criar anúncio</li><li>Criar Página</li><li>Desenvolvedores</li><li>Carreiras</li><li>Privacidade</li><li>Cookies</li>
+        <li>Opções de anúncio</li><li>Termos</li><li>Ajuda</li>
+        </div>
+
+        <p id="rodape">Facebook 2020</p>
+
+      </div>
+
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
